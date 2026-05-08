@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Portfólio Escolar</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            background-color: #e3f2fd; /* Fundo azul claro para o site */
+        }
+
+        /* Menu lateral esquerdo */
+        nav {
+            width: 250px;
+            background-color: #000000; /* Menu preto */
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        nav ul li:hover {
+            background-color: #333;
+        }
+
+        /* Área de conteúdo à direita */
+        main {
+            flex-grow: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        header {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>Portfólios</h2>
+        <ul>
+            <li onclick="alert('Carregando 1°A')">1°A</li>
+            <li onclick="alert('Carregando 1°B')">1°B</li>
+            <li onclick="alert('Carregando 2°A')">2°A</li>
+            <li onclick="alert('Carregando 3°A')">3°A</li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Painel de Controle</h1>
+        </header>
+        
+        <div class="card">
+            <h3>Selecione uma turma no menu lateral</h3>
+            <p>Este sistema permite gerenciar os portfólios individuais por turma.</p>
+        </div>
+    </main>
+
+</body>
+</html>
