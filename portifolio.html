@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha de Alunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f2f5;
+        }
+        h2 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        /* Estilo da turma 3A em cards */
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1em;
+        }
+        .card a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 8px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .card a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Turma 1A -->
+    <h2>Turma 1A</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nome do Aluno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Coloquei apenas os primeiros alunos como exemplo, pode repetir todos -->
+            <tr><td>1</td><td>ADRIEL MATHEUS MARTINS GAMAS</td></tr>
+            <tr><td>2</td><td>ANNA LUIZA GARCIA TARDIM</td></tr>
+            <tr><td>3</td><td>BIANCA HELOISE GONÇALVES</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Turma 1B -->
+    <h2>Turma 1B</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nome do Aluno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>ANA BEATRIZ RODRIGUES</td></tr>
+            <tr><td>2</td><td>ANA KAROLINA PEREIRA MIGUEL</td></tr>
+            <tr><td>3</td><td>BENJAMIM LOPES MOREIRA DE ALMEIDA</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Turma 2B -->
+    <h2>Turma 2B</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nome do Aluno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>ARTHUR ALVES DE OLIVEIRA PEREZ</td></tr>
+            <tr><td>2</td><td>DAIMAR SARAY FLORES LOPEZ</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Turma 3A -->
+    <h2>Turma 3A</h2>
+    <div class="cards-container">
+        <div class="card">
+            <h3>ALIFER GABRIEL DA SILVA DELAROZA</h3>
+            <a href="https://alifer2211.github.io/site.links/site.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ANDREY SALGUEIRO</h3>
+            <a href="https://andrey123salgueiro.github.io/Portifolio2026/portifolio.html" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>AUGUSTO CÉSAR FERNANDES TERTO</h3>
+            <a href="https://augusto324hs.github.io/portifo-lio.html/index2.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>DAYELLENN FERNANDA DE LIMA XAVIER DE SOUZA</h3>
+            <a href="https://dayday-13.github.io/portfolio/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ENZO GABRIEL ROSANELI ALDAVIS</h3>
+            <a href="https://enzo2628aldavis.github.io/Portifolio2k26/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>EUDSON FELIPE BARBOSA DA SILVA</h3>
+            <a href="https://eudsonj.github.io/portifolio/portifolio.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>GABRIEL EDUARDO FRACHETA DE SOUZA</h3>
+            <a href="https://fracheta.github.io/inicio/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>HENRIQUE NEGRI ASCENCIO</h3>
+            <a href="https://henriquenegriascencio.github.io/Lobby-de-links-terceir-o/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>HUBERT PRADO RAMOS</h3>
+            <a href="https://portifolio2026-dx4tmgfrvcekpzg8vs22ku.streamlit.app/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ISABELA SUSUKI HONORIO</h3>
+            <a href="https://isasusuki.github.io/portifolio/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ISABELLA CARDOSO DOS SANTOS</h3>
+            <a href="https://bellaa27.github.io/link/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ISABELLY BEATRIZ NUNES ROSA</h3>
+            <a href="https://isahbeatriz.github.io/portifolio-2026/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ISABELLY RAMOS DOS SANTOS</h3>
+            <a href="https://isabellyrss.github.io/TodosOsSITESS/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>JOÃO PAULO FERREIRA DE ARAÚJO</h3>
+            <a href="https://joaopaulo746.github.io/Paginas/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>JOÃO PEDRO GONÇALVES DE OLIVEIRA</h3>
+            <a href="https://robinho1512.github.io/todos.os.trabalhos/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>KAUÃ GABRIEL MORETÃO DA SILVA</h3>
+            <a href="https://kaua090123.github.io/Aura/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>KETHLEN CAROLINE GONÇALVES BENEDITO DA SILVA</h3>
+            <a href="https://kethlencarolinegoncalvesbeneditosilva.github.io/portifolio-ket/portifolio.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>LARISSA DE SOUZA BARBOSA DOS SANTOS</h3>
+            <a href="https://larissacamargo-hash.github.io/repositorio-de-atividade/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>MIGUEL BESPALHOK DE SOUZA</h3>
+            <a href="https://miguel09231309.github.io/site.links/site_links.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>NICOLLY CAROLINE SANTOS RIBEIRO</h3>
+            <a href="https://nicolly1265.github.io/TodosOsSites/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>PÉROLA FONTANA CORCHOG</h3>
+            <a href="https://perolafontana011.github.io/Portif-lio-2026/portif%C3%B3lio.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>ROGÉRIO ALEXANDRE CARVALHO DOS SANTOS</h3>
+            <a href="https://rogerio123384.github.io/inicio/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>SUSANA CIRQUEIRA TUASCO</h3>
+            <a href="https://susihh.github.io/portfolio----2026/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>VINICIUS VICTOR BENETTI LOURENÇO</h3>
+            <a href="https://salivamolhada.github.io/Pagina-de-exercicios/index.html?authuser=0" target="_blank">Portfolio</a>
+        </div>
+        <div class="card">
+            <h3>WESLEY ROBERTO AIRES ROZZI</h3>
+            <a href="https://lightning133.github.io/repositorio/?authuser=0" target="_blank">Portfolio</a>
+        </div>
+    </div>
+
+</body>
+</html>
